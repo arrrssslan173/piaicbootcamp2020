@@ -30,4 +30,4 @@ jobs:
       
       
     - name: Run Surge
-      run: ./ arrrssslan.surge.sh --token ${{secret.SURGE_TOK}}
+      run: ./ arrrssslan.surge.sh --token ${{secrets.SURGE_TOK}}
